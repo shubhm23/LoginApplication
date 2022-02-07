@@ -35,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         app:layout_constraintBottom_toTopOf="@+id/btnLogout"
         app:layout_constraintTop_toBottomOf="@+id/tvWelcomeMessage"
         tools:layout_editor_absoluteX="1dp">
@@ -43,9 +44,9 @@
             android:id="@+id/loginEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/ic_baseline_person_outline_24"
-            android:hint="Email"
-            android:inputType="textEmailAddress" />
+            android:focusable="false"
+            android:hint="Welcome"
+            android:inputType="none" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
