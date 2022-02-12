@@ -8,4 +8,4 @@ Just run the application on emulator or a real device and try to register yourse
 <img src="images/login.png" height="500px"/>
 
 ### Home
-<img src="images/home1.png" height="500px"/>
+<img src="images/home.png" height="500px"/>
